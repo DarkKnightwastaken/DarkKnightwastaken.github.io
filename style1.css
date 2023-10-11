@@ -60,9 +60,9 @@ body {
 }
 
 .batman{
-    position: fixed;
-    top: 20%;
-    right: 30%;
+    position: absolute;
+    top: 60%;
+    right: 10%;
     bottom: 0;
     width: 40%;
 }
