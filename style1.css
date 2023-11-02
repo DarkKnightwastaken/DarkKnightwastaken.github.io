@@ -109,3 +109,11 @@ font-size: 20px;
         bottom: 0;
         width: 40%;
     }
+
+    .batman{
+        position: absolute;
+        top: 40%;
+        right: 60%;
+        bottom: 0;
+        width: 10%
+    }
