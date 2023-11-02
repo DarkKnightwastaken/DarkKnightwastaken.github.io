@@ -1,30 +1,140 @@
 <!DOCTYPE html>
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style1.css">
     <title>All about CPU's</title>
+    <style>
+        .right-image {
+    float: right;
+    margin: 0 0 20px 20px; /* Adjust the margin as needed for spacing */
+    }
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        img {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 300px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: 1px solid #fff;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
 </head>
+
 <body>
-  
-        <div class="header">
-            <div>
-                <h1>All About CPU's</h1>
-                <nav>
-                    <ul>
-                        
-                        <li><a href="classwork.html">Back</a></li>
-                    
-                    </ul>
-                </nav>
-            </div>
-            
+    <div class="container">
+        <h1>All about CPU's</h1>
+
+        <div>
+            <a href="#section1" class="button">Section 1</a>
+            <a href="#section2" class="button">Section 2</a>
+            <a href="#section3" class="button">Section 3</a>
+            <a href="#section4" class="button">Section 4</a>
+            <a href="#section5" class="button">Section 5</a>
+            <a href="#section6" class="button">Section 6</a>
+            <a href="#section7" class="button">Section 7</a>
+            <a href="classwork.html" class="button">Back to Classwork</a>
         </div>
-        
 
-   
-        
-    <main>
+        <div class="section">
+            <img src="https://img.freepik.com/premium-photo/electronic-collection-computer-cpu-central-processing-unit-chip-isolated-black-background_486684-1352.jpg" alt="CPU Image" class="right-image">
+            <h2 id="section1">1: Intro</h2>
+            <p>When thinking about computers, the first thing that should come to mind is; what makes this computer run? Well, one of the most important components in a computer is the central processing unit.</p>
+            <p>The Central Processing Unit (CPU) acts as the computer's “control center.” It is made by arranging billions of microscopic transistors onto a single computer chip. These transistors function as tiny on and off switches conveying binary information, fetching instructions from the memory, interpreting it, and then executing it.</p>
+        </div>
 
-    </main>
+        <h2 id="section2">2: History of CPU</h2>
+        <a href="https://www.computerhope.com/history/processor.htm" target="_blank">Click here to view a timeline of the history of the CPU</a>
+
+        <h2 id="section3">3: Examples of what CPUs do on a computer or device</h2>
+        <p>Operating Systems</p>
+        <p>The core of any CPU-driven device is its operating system. This manages all the hardware resources and is managed heavily by the CPU.</p>
+        <p>Eg. Windows, MacOS, and Linux</p>
+
+        <h2 id="section4">4: How does a CPU work</h2>
+        <div class="section">
+        <p>As mentioned before, CPUs work by executing instructions that have been read from the RAM (memory) - these instructions tell the CPU what operations need to be done on specific data items stored in the memory.</p>
+        <p>After the instruction from the memory is sent through the CPU where it is decoded and read, and all operations are carried out, any resulting values are stored back into the RAM if needed before the CPU reads another instruction. This process repeats until all of the program's instructions have been executed or the program ends.</p>
+        <img src="https://i.pinimg.com/originals/9e/7d/a5/9e7da5d99a0088e191ff03735e7d0c25.jpg" alt="Image Description for Section 4">
+        </div>
+        <h2 id="section5">5: Multi-core processing vs. single core</h2>
+        <h3>What is a core?</h3>
+        <p>A CPU core is the CPU’s processor. They are the pathways that are made up of billions of transistors within a single processor that make the CPU run. When computers first hit the market, processors only had one core that would only be able to do one task at a time. Nowadays CPUs can have up to 18 cores.</p>
+        <a href="#section7" class="button">Click here to see the future of CPU technology</a>
+
+        <h2 id="section6">6: How many cores do you need for a computer?</h2>
+        <p>This information is according to hp.com</p>
+        <p><strong>1 CORE:</strong> If you are planning on running more than one program, good luck.</p>
+        <p><strong>2 CORES:</strong> If you are looking for something to just complete your school work and listen to music at the same time, a dual-core system is the most budget-friendly choice.</p>
+        <p><strong>4 CORES:</strong> A quad-core CPU will allow you to run games at very low settings but expect to have resolution errors. Most entry-level gamers will be able to run their games with a quad-core CPU, but if you are looking to play at a more competitive level or games that require a lot more processing power, upgrading your CPU might be a better option.</p>
+        <p>This is also true with video editing, graphic designing, 3D rendering, and sound editing. Completing everyday office tasks or homework will be much easier with a quad-core CPU because it would allow you to run multiple programs at once.</p>
+        <p><strong>6 CORES:</strong> With a hexa-core processor, you will be able to do all the previous mentioned tasks because it allows you to run multiple applications out once. Many gaming streamers run their devices with a hexa-core system because it allows them to run and stream their games at the same time.</p>
+        <p><strong>8 OR MORE CORES:</strong> Octa Core CPUs are great for competitive gamers and professional video editors or graphic designers. Gamers who play, record, and stream intensive games usually opt for more cores like this for as much power as possible. Engineers also usually tend to aim for higher cores like this. This is due to the fact that they're able to complete multiple tasks at the same time and they can switch from one program to the next without any lag or delay.</p>
+
+        <h2 id="section7">7: Future of CPU technology</h2>
+        <p>More efficient/Environmentally friendly CPU materials</p>
+        <p>New materials are being explored that will aid in the design of CPUs to prevent the common overheating issue seen. Researchers are learning more from studies on the use of graphene in CPUs. Using graphene could increase the lifespan of today's machines.</p>
+        <p><strong>Carbon Nanotubes:</strong> Another material that is less expensive than Graphene and can be just as effective in thermal management. Extremely lightweight, cable-like structures composed of carbon atoms. Using carbon nanotubes in the creation of the billions of tiny transistors in a CPU would enhance the switching speeds, lower the power usage, and allow a greater amount of transistors per CPU due to the size. With this switch, we could see a great improvement in smartphone speeds.</p>
+        <p><strong>AI in CPUs</strong></p>
+        <p>Can be used to enable language processing and human speech. More accurate response from virtual assistants. Can boost security. Using algorithms to identify cybersecurity threats. Identify and block log breaches in devices. Optimizing processing speed through analyzing patterns in how the CPU is being used over time. The CPU will be able to allocate resources to where it predicts they will be needed most in order to increase performance. Predictive nature of AI will increase efficiency which will reduce energy consumption.</p>
+        <p><strong>CPU in automobiles</strong></p>
+        <p>“Recogni, a relatively new startup backed by Toyota AI Ventures, BMW i Ventures, Continental, and more, has an AI-based vision processor, for example. The 1,000 TOPs processor uses AI to process the multiple 8MP streams of video at 30fps — video that self-driving cars will need to safely navigate their surroundings. AI enables the chip to detect objects and classify them far faster than cameras alone, the company argues.” This technology uses a chip called an APU (which is a CPU and GPU in one).</p>
+        <p>According to EIN Presswire, CPUs in vehicles will be able to process data from cameras very accurately and efficiently, process the instructions to the car's mobility system, and this will allow the car to maneuver its way without a person conducting the vehicle. With the help of AI, AI-driven CPUs will be seen in vehicles for tasks like facial recognition and voice-activated controls. EVs rely on CPUs to manage battery life, power distribution, and energy consumption. Future CPUs will focus on optimizing electric powertrain performance, charging management, and range prediction.</p>
+    </div>
+    <div class="section">
+        <img src="https://www.shutterstock.com/shutterstock/videos/1064916151/thumb/10.jpg?ip=x480">
+    </div>
 </body>
+
 </html>
